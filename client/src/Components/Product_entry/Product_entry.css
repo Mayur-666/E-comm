@@ -1,0 +1,9 @@
+.entry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0 50px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav1>ul{
+    margin: 19vw 0 0 0;
+    color: aliceblue;
+    z-index: 1;
+    list-style-type: none;
+    display: flex;
+    font-size: 2vw;
+    padding: 0 0 0 12px;
+}
+
+.nav1> ul> li{
+    padding: 0 1.5vw;
+}

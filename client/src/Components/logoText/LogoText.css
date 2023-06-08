@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    position: absolute;
+    margin: 7vw 0 0 3vw;
+
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    font-size: 4vw;
+    font-family: 'Arial Narrow Bold', sans-serif; 
+    font-style: italic;
+    line-height: 3.5vw;
+
+}
+
+.smallGap{
+    margin: -1vw 0;
+}
+
+h1>span{
+    transform: rotate(-90deg);
+    color: brown;
+    font-weight: 900;
+}
