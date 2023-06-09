@@ -4,7 +4,6 @@ import "./Product_entry.css";
 async function fetchh() {
   let raw = await fetch("/");
   let text = raw.text();
-  text= (await text).toString;
   console.log(text);
 }
 fetchh();
